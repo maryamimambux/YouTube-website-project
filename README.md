@@ -7,7 +7,7 @@ A simple and elegant **YouTube homepage clone** built using HTML and CSS. This p
 
 ## 🌐 Preview
 
-![YouTube Clone Screenshot](https://user-images.githubusercontent.com/your-image-path-here.png) <!-- Optional: Add a screenshot of your project -->
+![YouTube Clone Screenshot](https://github.com/user-attachments/assets/bd971f0e-9395-4a05-934f-8a78d987dda5)
 
 ---
 
