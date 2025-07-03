@@ -1,0 +1,89 @@
+
+.thum01 {
+    width: 100%;  
+}
+
+.div-thum01{
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-time{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    position: absolute;   
+
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500; 
+    bottom: 8px;
+    right: 5px;
+
+    /* 
+    padding: (vertical)px (horizontal)px;  
+    padding: (top)px (right)px (bottom)px (left)px; --> clockwise from top
+    same applys to margin
+    */
+
+    padding: 9px 6px; 
+    border-radius: 3px;
+
+}
+
+
+.title1{ 
+    margin-top: 0px; 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.channel1, .stats1{
+    color: rgb(96, 96, 96);
+    font-size: 12px; 
+}
+.channel1{ 
+    margin-bottom: 4px;
+}  
+
+.thum01{
+    border: none;
+    border-radius: 9px;
+}
+
+.div-info-content-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+} 
+
+.profile-pic{
+    width: 36px; /*100% means img would take entire space of container i.e. div-channel-pic*/
+    border-radius: 50px;
+} 
+
+.div-videos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+    .div-videos-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 751px) and (min-width: 999px) {
+    .div-videos-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .div-videos-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
